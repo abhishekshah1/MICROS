@@ -1,0 +1,1091 @@
+{
+  "root": {
+    "rows": [
+      "100%"
+    ],
+    "type": "grid",
+    "columns": [
+      "minmax(70%, 1fr)",
+      "minmax(260px, 560px)"
+    ],
+    "components": [
+      {
+        "type": "stack",
+        "gridRow": 1,
+        "components": [
+          {
+            "type": "component",
+            "component": "breadcrumbs",
+            "componentId": "component_7xcmicq"
+          },
+          {
+            "type": "component",
+            "component": "title",
+            "componentId": "component_l5k6630"
+          },
+          {
+            "type": "stack",
+            "components": [
+              {
+                "id": "tabs",
+                "type": "sections",
+                "location": "tabs",
+                "sections": [
+                  {
+                    "type": "section",
+                    "title": {
+                      "type": "string",
+                      "value": "Description",
+                      "localize": true
+                    },
+                    "component": {
+                      "type": "stack",
+                      "components": [
+                        {
+                          "type": "tags",
+                          "componentId": "tags_QpqrKqHNFFKBJkmT"
+                        },
+                        {
+                          "type": "description",
+                          "componentId": "description_DTWnpqpQpdCNjmzQ"
+                        },
+                        {
+                          "type": "customFieldsLongDefault",
+                          "components": [],
+                          "componentId": "customFieldsLongDefault_Pgmz7KKFwdbD8twT"
+                        },
+                        {
+                          "type": "attachments",
+                          "componentId": "attachments_JTL8D7FhTbtNpBgB"
+                        },
+                        {
+                          "type": "comments",
+                          "componentId": "comments_6NWPqbm9TJMJpbG8"
+                        }
+                      ],
+                      "componentId": "stack_bcBcwcRMzmz6Pzpq",
+                      "orientation": "column"
+                    },
+                    "componentId": "section_g4wddnq"
+                  },
+                  {
+                    "type": "section",
+                    "title": {
+                      "type": "string",
+                      "value": "Tasks",
+                      "localize": true
+                    },
+                    "component": {
+                      "type": "component",
+                      "component": "layout.list",
+                      "properties": {
+                        "name": "Tasks",
+                        "listType": "tasks"
+                      },
+                      "componentId": "component_qKJBJBHLJqdcNzNC"
+                    },
+                    "titleExtra": {
+                      "type": "component",
+                      "component": "label.generalCounter",
+                      "properties": {
+                        "text": "",
+                        "collectionField": "tasks"
+                      },
+                      "componentId": "component_myiym83"
+                    },
+                    "componentId": "section_wmyjwxh"
+                  },
+                  {
+                    "type": "section",
+                    "title": {
+                      "type": "string",
+                      "value": "Bugs",
+                      "isPlural": true,
+                      "localize": true,
+                      "useTerms": true
+                    },
+                    "component": {
+                      "type": "component",
+                      "component": "layout.list",
+                      "properties": {
+                        "listType": "bugs"
+                      },
+                      "componentId": "component_PzjMhMPhmRzt7GjH"
+                    },
+                    "titleExtra": {
+                      "type": "component",
+                      "component": "label.generalCounter",
+                      "properties": {
+                        "text": "",
+                        "collectionField": "bugs"
+                      },
+                      "componentId": "component_1g15ca9"
+                    },
+                    "componentId": "section_edlgicf"
+                  },
+                  {
+                    "type": "section",
+                    "title": {
+                      "type": "string",
+                      "value": "Relations",
+                      "localize": true
+                    },
+                    "component": {
+                      "type": "component",
+                      "component": "relations.container",
+                      "properties": {
+                        "name": "relations container"
+                      },
+                      "componentId": "component_brkmRbwHCCkpkNHm"
+                    },
+                    "titleExtra": {
+                      "type": "component",
+                      "component": "label.relationCount",
+                      "properties": {
+                        "text": ""
+                      },
+                      "componentId": "component_v47vknl"
+                    },
+                    "componentId": "section_nlbsdtj"
+                  },
+                  {
+                    "type": "section",
+                    "title": {
+                      "type": "string",
+                      "value": "State Changes",
+                      "localize": true
+                    },
+                    "component": {
+                      "type": "component",
+                      "component": "implementationHistory",
+                      "componentId": "component_JDkHnqbFB7kHK7Tn"
+                    },
+                    "componentId": "section_8m2cbt5"
+                  },
+                  {
+                    "type": "section",
+                    "title": {
+                      "type": "string",
+                      "value": "Audit History",
+                      "localize": true
+                    },
+                    "component": {
+                      "type": "component",
+                      "component": "auditHistory",
+                      "componentId": "component_KCWNpnbcKJ8WgT6r"
+                    },
+                    "componentId": "section_a6ede8w"
+                  },
+                  {
+                    "type": "section",
+                    "title": {
+                      "type": "string",
+                      "value": "Time",
+                      "localize": true
+                    },
+                    "component": {
+                      "type": "component",
+                      "component": "layout.list",
+                      "properties": {
+                        "name": "Times",
+                        "listType": "time"
+                      },
+                      "componentId": "component_TWKbLMMGnr7MCkfR"
+                    },
+                    "titleExtra": {
+                      "type": "component",
+                      "component": "label.generalCounter",
+                      "properties": {
+                        "text": "",
+                        "collectionField": "times"
+                      },
+                      "componentId": "component_l53qx2v"
+                    },
+                    "componentId": "section_gkpwya1"
+                  }
+                ],
+                "componentId": "sections_b6hon86"
+              }
+            ],
+            "componentId": "stack_2r5apy4",
+            "orientation": "column"
+          }
+        ],
+        "gridColumn": 1,
+        "componentId": "stack_6quvgmx",
+        "orientation": "column"
+      },
+      {
+        "type": "loadingCover",
+        "gridRow": 1,
+        "component": {
+          "from": [
+            "extendableDomainLayoutTransformation"
+          ],
+          "type": "stack",
+          "location": "panel.right",
+          "components": [
+            {
+              "type": "stack",
+              "components": [
+                {
+                  "type": "actionsMenu",
+                  "componentId": "actionsMenu_0p0fejc"
+                },
+                {
+                  "type": "quickAdd",
+                  "componentId": "quickAdd_h06ykhw"
+                },
+                {
+                  "type": "shareEntity",
+                  "componentId": "shareEntity_983ubvr"
+                },
+                {
+                  "type": "followButton",
+                  "componentId": "followButton_iwl75tn"
+                }
+              ],
+              "componentId": "stack_capiwao",
+              "orientation": "row-reverse"
+            },
+            {
+              "type": "component",
+              "component": "progressBar",
+              "componentId": "component_u8eho7q"
+            },
+            {
+              "type": "property.teamEntityState",
+              "componentId": "property.teamEntityState_yipae6x"
+            },
+            {
+              "type": "collapsible",
+              "title": {
+                "type": "string",
+                "value": "Document Info",
+                "localize": true
+              },
+              "component": {
+                "type": "stack",
+                "components": [
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Doc Type"
+                    },
+                    "componentId": "property.customField_kvcbb4p"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Indication"
+                    },
+                    "componentId": "property.customField_j3iiiig"
+                  },
+                  {
+                    "type": "dropdown_customized__TAU_filtered_by_Drug_single",
+                    "componentId": "dropdown_customized__TAU_filtered_by_Drug_single_bdCKpMzWfDnFtJPr"
+                  },
+                  {
+                    "from": [
+                      "extendableDomainLayoutTransformation"
+                    ],
+                    "type": "property.entity",
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "value": "area",
+                        "localize": true,
+                        "useTerms": true
+                      },
+                      "editable": true,
+                      "allowReset": true,
+                      "propertyName": "area",
+                      "referenceEntityType": "area"
+                    },
+                    "componentId": "property.entity_RgRr6CWrGrb89ztg",
+                    "extendableDomain": {
+                      "version": 485
+                    },
+                    "visibilityConfig": {
+                      "entityQuerySelector": "false"
+                    }
+                  },
+                  {
+                    "from": [
+                      "extendableDomainLayoutTransformation"
+                    ],
+                    "type": "property.entity",
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "value": "masterproduct",
+                        "localize": true,
+                        "useTerms": true
+                      },
+                      "editable": true,
+                      "allowReset": true,
+                      "propertyName": "masterProduct",
+                      "referenceEntityType": "masterproduct"
+                    },
+                    "componentId": "property.entity_b5klup9",
+                    "extendableDomain": {
+                      "version": 485
+                    }
+                  },
+                  {
+                    "type": "property.project",
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "value": "Project",
+                        "localize": true,
+                        "useTerms": true
+                      }
+                    },
+                    "componentId": "property.project_qlgprnt"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Study Number"
+                    },
+                    "componentId": "property.customField_qiu9u1g",
+                    "visibilityConfig": {
+                      "entityQuerySelector": "DocType == 'Protocol Amendment' or DocType == 'Prot' or DocType == 'Protocol' or DocType == 'Protocol Amendment Synopsis' or DocType == 'Protocol Synopsis' or DocType == 'CSR' or DocType == 'Abbreviated CSR' or DocType == 'Appendix (Separate Document)' or DocType == 'CSR Amendment' or DocType == 'CSR Body & Synopsis' or DocType == 'CSR Shell' or DocType == 'Interim CSR Body & Synopsis'"
+                    }
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Phase"
+                    },
+                    "componentId": "property.customField_ifbdb9t",
+                    "visibilityConfig": {
+                      "entityQuerySelector": "DocType = 'Protocol Amendment' or DocType == 'Prot' or DocType = 'Protocol' or DocType = 'Protocol Amendment Synopsis' or DocType = 'Protocol Synopsis' or DocType = 'CSR' or DocType = 'Abbreviated CSR' or DocType = 'Appendix (Separate Document)' or DocType = 'CSR Amendment' or DocType = 'CSR Body & Synopsis' or DocType = 'CSR Shell' or DocType = 'Interim CSR Body & Synopsis'"
+                    }
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Population"
+                    },
+                    "componentId": "property.customField_4vtig2e",
+                    "visibilityConfig": {
+                      "entityQuerySelector": "DocType = 'Protocol Amendment' or DocType == 'Prot' or DocType = 'Protocol' or DocType = 'Protocol Amendment Synopsis' or DocType = 'Protocol Synopsis' or DocType = 'CSR' or DocType = 'Abbreviated CSR' or DocType = 'Appendix (Separate Document)' or DocType = 'CSR Amendment' or DocType = 'CSR Body & Synopsis' or DocType = 'CSR Shell' or DocType = 'Interim CSR Body & Synopsis'"
+                    }
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Amendment No"
+                    },
+                    "componentId": "property.customField_nen0o1q",
+                    "visibilityConfig": {
+                      "entityQuerySelector": "DocType = 'Protocol Amendment' or DocType == 'Prot' or DocType = 'Protocol'  or DocType = 'Protocol Amendment Synopsis' or DocType = 'Protocol Synopsis'"
+                    }
+                  },
+                  {
+                    "type": "property.feature",
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "value": "Feature",
+                        "localize": true,
+                        "useTerms": true
+                      }
+                    },
+                    "componentId": "property.feature_vqtv6wo"
+                  },
+                  {
+                    "type": "property.priority",
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "value": "Business value",
+                        "localize": true
+                      }
+                    },
+                    "componentId": "property.priority_8wo1jte",
+                    "visibilityConfig": {
+                      "entityQuerySelector": "false"
+                    }
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Tracker Link"
+                    },
+                    "componentId": "property.customField_mbhK8MbjMLqwG6Np"
+                  },
+                  {
+                    "type": "collapsible",
+                    "title": {
+                      "type": "string",
+                      "value": "Investigator Brochures",
+                      "localize": true
+                    },
+                    "component": {
+                      "type": "customFieldsShortDefault",
+                      "components": [
+                        {
+                          "type": "property.customField",
+                          "properties": {
+                            "name": "Edition"
+                          },
+                          "componentId": "property.customField_4k63jdo"
+                        },
+                        {
+                          "type": "property.customField",
+                          "properties": {
+                            "name": "DSUR Date"
+                          },
+                          "componentId": "property.customField_ygx3q29"
+                        },
+                        {
+                          "type": "property.customField",
+                          "properties": {
+                            "name": "CTFG Compliant"
+                          },
+                          "componentId": "property.customField_u1hm2oo"
+                        },
+                        {
+                          "type": "property.customField",
+                          "properties": {
+                            "name": "DSUR Cut Aligned"
+                          },
+                          "componentId": "property.customField_wgpe2l7"
+                        }
+                      ],
+                      "componentId": "customFieldsShortDefault_ey6k0pn"
+                    },
+                    "componentId": "collapsible_oluoxef",
+                    "visibilityConfig": {
+                      "entityQuerySelector": "DocType = 'Investigator Brochure' or DocType = 'IB' or DocType = 'IB Addendum' or DocType = 'IB Summary of Changes (SOC)'"
+                    }
+                  }
+                ],
+                "componentId": "stack_wjr18ww",
+                "orientation": "column"
+              },
+              "properties": {
+                "defaultState": "uncollapsed"
+              },
+              "componentId": "collapsible_uvka6ay"
+            },
+            {
+              "from": [
+                "extendableDomainLayoutTransformation"
+              ],
+              "type": "collapsible",
+              "title": {
+                "type": "string",
+                "value": "EDMS",
+                "localize": true
+              },
+              "component": {
+                "from": [
+                  "extendableDomainLayoutTransformation"
+                ],
+                "type": "stack",
+                "components": [
+                  {
+                    "from": [
+                      "extendableDomainLayoutTransformation"
+                    ],
+                    "type": "stack",
+                    "children": [],
+                    "location": "extendableDomainAutogenerated",
+                    "components": [],
+                    "componentId": "stack_cfgkLp79hbhnz6Cp",
+                    "orientation": "column"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Doc Name in EDMS"
+                    },
+                    "componentId": "property.customField_qdFhNw6ztLd7mB9N"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "EDMS Doc Link"
+                    },
+                    "componentId": "property.customField_HrddMzfPJW6DchzP"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "EDMS"
+                    },
+                    "componentId": "property.customField_zgP7qr6DTWbMGNtP"
+                  }
+                ],
+                "componentId": "stack_cBn7MLRfct9GNRDz",
+                "orientation": "column"
+              },
+              "properties": {
+                "defaultState": "collapsed"
+              },
+              "componentId": "collapsible_T9Kfht9GMMPtFLLf"
+            },
+            {
+              "type": "collapsible",
+              "title": {
+                "type": "string",
+                "value": "Assignments",
+                "localize": true
+              },
+              "component": {
+                "type": "stack",
+                "components": [
+                  {
+                    "type": "portfolioAssignments",
+                    "componentId": "portfolioAssignments_xn2b8ig"
+                  },
+                  {
+                    "type": "separator",
+                    "componentId": "separator_mnhxiqe"
+                  },
+                  {
+                    "type": "component",
+                    "component": "assignmentsList",
+                    "componentId": "component_t7iue3q"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "External Writer"
+                    },
+                    "componentId": "property.customField_3ieqiju"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Vendor"
+                    },
+                    "componentId": "property.customField_ck97HfhBzf6mCKFd"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Vendor Model"
+                    },
+                    "componentId": "property.customField_kQdkGQkbBKkQqPp8"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Ext Writer"
+                    },
+                    "componentId": "property.customField_PkbtR7rgbhC6MfLf"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Writer PRAEmbedded"
+                    },
+                    "componentId": "property.customField_8PJBctQp7kQWz8dN"
+                  }
+                ],
+                "componentId": "stack_7brtltw",
+                "orientation": "column"
+              },
+              "properties": {
+                "defaultState": "collapsed"
+              },
+              "componentId": "collapsible_mt0yesw"
+            },
+            {
+              "type": "component",
+              "component": "panel.linkedTestPlan",
+              "componentId": "component_janjkcu"
+            },
+            {
+              "type": "collapsible",
+              "title": {
+                "type": "string",
+                "value": "Dates",
+                "localize": true
+              },
+              "component": {
+                "type": "stack",
+                "components": [
+                  {
+                    "type": "property.plannedStartDate",
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "value": "Planned start",
+                        "localize": true
+                      },
+                      "editable": true
+                    },
+                    "componentId": "property.plannedStartDate_e5x2rro"
+                  },
+                  {
+                    "type": "property.startDate.assignable",
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "value": "Start date",
+                        "localize": true
+                      },
+                      "editable": true
+                    },
+                    "componentId": "property.startDate.assignable_nl5etxp"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Planned Submission Ready (Updated)"
+                    },
+                    "componentId": "property.customField_jbcPQf8NgbWgDFHL"
+                  },
+                  {
+                    "type": "property.completeDate",
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "value": "Completion date",
+                        "localize": true
+                      },
+                      "editable": true
+                    },
+                    "componentId": "property.completeDate_73mqho0"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Content Approved Date"
+                    },
+                    "componentId": "property.customField_4xyj84y"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Date Approx"
+                    },
+                    "componentId": "property.customField_fbv4ejo"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Target Approval Date"
+                    },
+                    "componentId": "property.customField_p8NWd9RqhNBftTNw"
+                  },
+                  {
+                    "type": "property.milestone",
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "value": "Milestone",
+                        "localize": true
+                      }
+                    },
+                    "componentId": "property.milestone_e8pgvil"
+                  }
+                ],
+                "componentId": "stack_pi45euk",
+                "orientation": "column"
+              },
+              "properties": {
+                "defaultState": "uncollapsed"
+              },
+              "componentId": "collapsible_cve9vk1"
+            },
+            {
+              "type": "collapsible",
+              "title": {
+                "type": "string",
+                "value": "MW Operations",
+                "localize": true
+              },
+              "component": {
+                "type": "customFieldsShortDefault",
+                "components": [
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Form Initiated Date"
+                    },
+                    "componentId": "property.customField_p7TFTkHfJ8DwrDgJ"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "QC Needed"
+                    },
+                    "componentId": "property.customField_fRGf9n6Gznf9rhMf"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "QC Editor"
+                    },
+                    "componentId": "property.customField_FdRP9pGq7QN88rLW"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Ext QC Editor"
+                    },
+                    "componentId": "property.customField_wQMjFLMnkPppmQTn"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Planned QC Start"
+                    },
+                    "componentId": "property.customField_qBCnDnhCtmwgHgpJ"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Planned QC End"
+                    },
+                    "componentId": "property.customField_fMCnk8CffTqJ9dfJ"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "QC Started"
+                    },
+                    "componentId": "property.customField_GPh7PCdbMdtjbM8L"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "QC Finished"
+                    },
+                    "componentId": "property.customField_TcTL9QqM6zGhGnz6"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Tech Edit Needed"
+                    },
+                    "componentId": "property.customField_tdNBnrCBpHhwjHNk"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Editor"
+                    },
+                    "componentId": "property.customField_HhnpqPGtkL7NkT68"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Ext Tech Editor"
+                    },
+                    "componentId": "property.customField_FRdn9DtrbLprk6MM"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Planned TE Start"
+                    },
+                    "componentId": "property.customField_nHLWDjztzHWGFWTk"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Planned TE End"
+                    },
+                    "componentId": "property.customField_KWMPqdBmFwDWcCN9"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Edit Started"
+                    },
+                    "componentId": "property.customField_pPJKNWcJmWDB7jC8"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Edit Finished"
+                    },
+                    "componentId": "property.customField_rwJhDFpkPHKDPWfC"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Submission Ready Only"
+                    },
+                    "componentId": "property.customField_JgkHdTJMMrD68TnD"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Publish Needed"
+                    },
+                    "componentId": "property.customField_gWWFfwtWwqNkKDWP"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Publish Ready Date"
+                    },
+                    "componentId": "property.customField_rusmx7l"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Publisher"
+                    },
+                    "componentId": "property.customField_Khmrn6nbFJNcPbfC"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Ext Publisher"
+                    },
+                    "componentId": "property.customField_DH86QnPd6h6knCJ7"
+                  },
+                  {
+                    "type": "property.plannedEndDate",
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "value": "Planned Submission Ready (Initial)",
+                        "localize": true
+                      },
+                      "editable": true
+                    },
+                    "componentId": "property.plannedEndDate_hboum23"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Publish Started"
+                    },
+                    "componentId": "property.customField_CH9c6dftQCKQPWJm"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Publish Finished"
+                    },
+                    "componentId": "property.customField_nGmnjWqtRPTNwfpL"
+                  }
+                ],
+                "componentId": "customFieldsShortDefault_QQK6RrTDnHdWJdW6"
+              },
+              "properties": {
+                "defaultState": "collapsed"
+              },
+              "componentId": "collapsible_tdrmRffCQ77wmCrf"
+            },
+            {
+              "type": "collapsible",
+              "title": {
+                "type": "string",
+                "value": "Custom fields",
+                "localize": true
+              },
+              "component": {
+                "type": "customFieldsShortDefault",
+                "components": [
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Workflow State"
+                    },
+                    "componentId": "property.customField_0l94g8s"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Sharepoint Drug"
+                    },
+                    "componentId": "property.customField_osoxyg5"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Writer"
+                    },
+                    "componentId": "property.customField_hGbK7Gn8d9zPG9kB"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Area CF"
+                    },
+                    "componentId": "property.customField_nthGDCKBPjh8Kk7c"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "PubMod"
+                    },
+                    "componentId": "property.customField_fFMftPj9TKCkgMDj"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Writer Type"
+                    },
+                    "componentId": "property.customField_rqKcrd98t9nDq6WT"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Sharepoint Workflow"
+                    },
+                    "componentId": "property.customField_M6WqjbBfQrjHDPNN"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Modification Date"
+                    },
+                    "componentId": "property.customField_WQpTMHwGgDQQtnjm"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Therapeutic Area"
+                    },
+                    "componentId": "property.customField_ChbhTkL9jLJJqkmB"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Ext Writer checkbox"
+                    },
+                    "componentId": "property.customField_6mKntCBdTzWRWkGC"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Sharepoint TAU"
+                    },
+                    "componentId": "property.customField_mPcPR9zmCk8PKCcM"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "TFL Final Date 1"
+                    },
+                    "componentId": "property.customField_n8tcKhrbWLT9PdcN"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "TFL Final Date 2"
+                    },
+                    "componentId": "property.customField_bFDbhB9TJdc6g7r7"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "TFL Final Date 3"
+                    },
+                    "componentId": "property.customField_bGBTNmrcpBKbkf6K"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Company"
+                    },
+                    "componentId": "property.customField_mftDjmWHmD8Gcbzq"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "TFL Final Date"
+                    },
+                    "componentId": "property.customField_GJbczh9nK9rrLMwF"
+                  },
+                  {
+                    "type": "property.customField",
+                    "properties": {
+                      "name": "Region"
+                    },
+                    "componentId": "property.customField_pKJNBHG878GmDFKf"
+                  }
+                ],
+                "componentId": "customFieldsShortDefault_w0lfqfr"
+              },
+              "componentId": "collapsible_fygi8nc"
+            },
+            {
+              "from": [
+                "extendableDomainLayoutTransformation"
+              ],
+              "type": "collapsible",
+              "title": {
+                "type": "string",
+                "value": "Admin Information",
+                "localize": true
+              },
+              "component": {
+                "from": [
+                  "extendableDomainLayoutTransformation"
+                ],
+                "type": "stack",
+                "components": [
+                  {
+                    "from": [
+                      "extendableDomainLayoutTransformation"
+                    ],
+                    "type": "stack",
+                    "children": [],
+                    "location": "extendableDomainAutogenerated",
+                    "components": [],
+                    "componentId": "stack_mb4pes5",
+                    "orientation": "column"
+                  },
+                  {
+                    "type": "property.owner.project",
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "value": "Creator",
+                        "localize": true
+                      }
+                    },
+                    "componentId": "property.owner.project_svtd6ts"
+                  },
+                  {
+                    "type": "property.createDate",
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "value": "Creation date",
+                        "localize": true
+                      }
+                    },
+                    "componentId": "property.createDate_h7vpigq"
+                  }
+                ],
+                "componentId": "stack_llmt6o6",
+                "orientation": "column"
+              },
+              "properties": {
+                "defaultState": "collapsed"
+              },
+              "componentId": "collapsible_9lg58c4"
+            }
+          ],
+          "componentId": "stack_lw4wqv5",
+          "orientation": "column"
+        },
+        "gridColumn": 2,
+        "properties": {
+          "height": "100vh"
+        },
+        "componentId": "loadingCover_nys5icj"
+      }
+    ],
+    "componentId": "grid_m9imhit"
+  },
+  "integrations": {},
+  "generationConfig": {
+    "ignoreFields": []
+  }
+}
