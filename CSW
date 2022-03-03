@@ -43,27 +43,27 @@
                       "components": [
                         {
                           "type": "tags",
-                          "componentId": "tags_DLLPGmkLnBgJ8rQr"
+                          "componentId": "tags_hghRQLHNGrfGRQfb"
                         },
                         {
                           "type": "description",
-                          "componentId": "description_jwQzfzTbCDzGQrB8"
+                          "componentId": "description_8BpD9TLh8ddHfJFn"
                         },
                         {
                           "type": "customFieldsLongDefault",
                           "components": [],
-                          "componentId": "customFieldsLongDefault_fJMGH7gLmPNrMcwC"
+                          "componentId": "customFieldsLongDefault_8pQkGg9ctJkQdFm6"
                         },
                         {
                           "type": "attachments",
-                          "componentId": "attachments_GGKkwRjnfTPHqHHt"
+                          "componentId": "attachments_Cdt9nDCW9WLWKdJB"
                         },
                         {
                           "type": "comments",
-                          "componentId": "comments_JPt6QrQtWFKJzjfc"
+                          "componentId": "comments_HCBkLFrLmdHFnRJt"
                         }
                       ],
-                      "componentId": "stack_gNT7PcdHhdmhDkCW",
+                      "componentId": "stack_CnCpdzFLPbGrGcT7",
                       "orientation": "column"
                     },
                     "componentId": "section_g4wddnq"
@@ -82,7 +82,7 @@
                         "name": "Tasks",
                         "listType": "tasks"
                       },
-                      "componentId": "component_hnbkcrRCTFLmttFd"
+                      "componentId": "component_JhBTFJ6zNWrgmmGK"
                     },
                     "titleExtra": {
                       "type": "component",
@@ -110,7 +110,7 @@
                       "properties": {
                         "listType": "bugs"
                       },
-                      "componentId": "component_WQKNBcNwTnzDJJF8"
+                      "componentId": "component_6FjD7cgFw9jWrWcz"
                     },
                     "titleExtra": {
                       "type": "component",
@@ -136,7 +136,7 @@
                       "properties": {
                         "name": "relations container"
                       },
-                      "componentId": "component_tBMRMQrkN78ddKrc"
+                      "componentId": "component_JDH6pWTqTFTkrQdB"
                     },
                     "titleExtra": {
                       "type": "component",
@@ -158,7 +158,7 @@
                     "component": {
                       "type": "component",
                       "component": "implementationHistory",
-                      "componentId": "component_dqNkjMJhWWBjh9J6"
+                      "componentId": "component_7TjDrQBtFmTFDQFJ"
                     },
                     "componentId": "section_8m2cbt5"
                   },
@@ -172,7 +172,7 @@
                     "component": {
                       "type": "component",
                       "component": "auditHistory",
-                      "componentId": "component_rQwzGzqQjNRgzptp"
+                      "componentId": "component_8NnGJFckDHMfmmhG"
                     },
                     "componentId": "section_a6ede8w"
                   },
@@ -190,7 +190,7 @@
                         "name": "Times",
                         "listType": "time"
                       },
-                      "componentId": "component_cthMLn7zcQ6qcLp8"
+                      "componentId": "component_CgHBRgjLnKqhRTFN"
                     },
                     "titleExtra": {
                       "type": "component",
@@ -842,13 +842,6 @@
                   {
                     "type": "property.customField",
                     "properties": {
-                      "name": "Workflow State"
-                    },
-                    "componentId": "property.customField_0l94g8s"
-                  },
-                  {
-                    "type": "property.customField",
-                    "properties": {
                       "name": "Sharepoint Drug"
                     },
                     "componentId": "property.customField_osoxyg5"
@@ -907,56 +900,42 @@
                     "properties": {
                       "name": "QC"
                     },
-                    "componentId": "property.customField_ghBcntH7fpgMNLmC"
+                    "componentId": "property.customField_hHTkWwPKrDWjTf97"
                   },
                   {
                     "type": "property.customField",
                     "properties": {
-                      "name": "Sharepoint Submission Type"
+                      "name": "PublishingModel"
                     },
-                    "componentId": "property.customField_9ccM8mPDqfc9kb6R"
+                    "componentId": "property.customField_F6kJnBfhNG8Wb978"
                   },
                   {
                     "type": "property.customField",
                     "properties": {
-                      "name": "Notes"
+                      "name": "Publishing Model"
                     },
-                    "componentId": "property.customField_dRckfn7ccpb6hbqH"
+                    "componentId": "property.customField_8DNmmLHjdkztc97W"
                   },
                   {
                     "type": "property.customField",
                     "properties": {
-                      "name": "Writing Outsourced"
+                      "name": "Doc Link"
                     },
-                    "componentId": "property.customField_m8gBjFrw8qPFfDqg"
-                  },
-                  {
-                    "type": "property.customField",
-                    "properties": {
-                      "name": "Concatenated Writer"
-                    },
-                    "componentId": "property.customField_DMpD8dFhFqRRPgGc"
-                  },
-                  {
-                    "type": "property.customField",
-                    "properties": {
-                      "name": "Tracker Link"
-                    },
-                    "componentId": "property.customField_JP9LJc7QPhzBRBnR"
+                    "componentId": "property.customField_QbDWNLhBPThjTBpL"
                   },
                   {
                     "type": "property.customField",
                     "properties": {
                       "name": "EDMS Doc Link"
                     },
-                    "componentId": "property.customField_FdrCHFFDr98Nhkgk"
+                    "componentId": "property.customField_pM9Tmrqm8TnqJLw8"
                   },
                   {
                     "type": "property.customField",
                     "properties": {
                       "name": "Region"
                     },
-                    "componentId": "property.customField_J7tC9dghzrtbCpg9"
+                    "componentId": "property.customField_FwcHLdcKzwdfwjb8"
                   }
                 ],
                 "componentId": "customFieldsShortDefault_w0lfqfr"
